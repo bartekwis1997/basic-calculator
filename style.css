@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 3rem;
+    color: white;
+    background-color: #2e2e2e;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 450px;
+    border-radius: 50px;
+    padding: 0.5rem;
+}
+
+.result {
+    display: flex;
+    height: 120px;
+    margin: 0.5rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 5rem;
+}
+
+.row {
+    display: flex;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #3B3B3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    user-select: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.button:active {
+    font-size: 3.5rem;
+    transition: 30ms linear;
+}
+
+.zero {
+    flex-grow: 1;
+    border-radius: 100px;
+    justify-content: flex-start;
+    padding-left: 2rem;
+}
+
+.clear,
+.plus-minus,
+.percent {
+    background-color: #b2b2b2;
+    color: black;
+}
+
+.divide,
+.multiply,
+.minus,
+.plus,
+.equals {
+    background-color: #F5A716;
+}
